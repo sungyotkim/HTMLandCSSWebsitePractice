@@ -34,3 +34,12 @@ body {
     margin: 0px;
     margin-top: 50px;
 }
+
+a:link, a:visited {
+    background-color: #cdeaff;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: None;
+    display: inline-block;
+}
