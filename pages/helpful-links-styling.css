@@ -35,11 +35,42 @@ body {
     margin-top: 50px;
 }
 
-a:link, a:visited {
+.body-parts {
+    font-size: 18px;
+}
+
+.helpful-links-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.helpful-links:link, .helpful-links:visited {
     background-color: #cdeaff;
     color: black;
     padding: 14px 25px;
+    margin-bottom: 5px;
     text-align: center;
     text-decoration: None;
     display: inline-block;
+}
+
+.helpful-links:hover, .helpful-links:active {
+    background-color: #a4bbcc;
+}
+
+.basics {
+    display:inline-block;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: hotpink;
 }
